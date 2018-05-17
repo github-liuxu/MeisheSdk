@@ -1,0 +1,12 @@
+platform :ios,'8.0'
+use_frameworks!
+
+target 'MeisheSdk_Example' do
+  pod 'MeisheSdk', :path => '../'
+
+  target 'MeisheSdk_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

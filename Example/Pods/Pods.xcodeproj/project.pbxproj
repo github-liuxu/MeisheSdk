@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1DDB5D64F8B10153F78EDA8664E2DD93 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		3C0783F57C431E262D7EC61702FB0AAB /* Pods-MeisheSdk_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FD01C5DF6B9CE07D6C8CDB4D6BAE08CA /* Pods-MeisheSdk_Tests-dummy.m */; };
+		75E6FBFA6BD1457154F6CB4C6E1376CE /* Pods-MeisheSdk_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 74B4DB912834CF6D9AAD6951E1E51805 /* Pods-MeisheSdk_Example-dummy.m */; };
+		819B93ED8BB36F822F5D11BB9E513CA0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		B76A78C0C3C392B7E908B6087DD782E8 /* Pods-MeisheSdk_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DBEF2AD08EFD51281598A7F91B8DA3FF /* Pods-MeisheSdk_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C6FD2A17A8961A467986979E62642118 /* Pods-MeisheSdk_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BFE8ADB4F10A48656F01D349EF00DF3C /* Pods-MeisheSdk_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0E7877616E450379ACFB9F7494F51038 /* NvStreamingSdkCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NvStreamingSdkCore.framework; path = MeisheSdk/Librarys/NvStreamingSdkCore.framework; sourceTree = "<group>"; };
+		12D77E5A1B902EB79FF46031B2E41D19 /* Pods-MeisheSdk_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MeisheSdk_Example-frameworks.sh"; sourceTree = "<group>"; };
+		1606E51C32CDEBBA987535F3483EBB0D /* Pods-MeisheSdk_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MeisheSdk_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1C17A4A8CB7FC996AD6C1F9C55703041 /* NvsLiveWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NvsLiveWindow.h; path = MeisheSdk/Librarys/NvStreamingSdkCore.framework/Headers/NvsLiveWindow.h; sourceTree = "<group>"; };
+		22ADE57C36FE09E3F2A50A621D55D844 /* Pods_MeisheSdk_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MeisheSdk_Tests.framework; path = "Pods-MeisheSdk_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		295F95498312AE6AB18A094FCD13FE5E /* NvsVideoTransition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NvsVideoTransition.h; path = MeisheSdk/Librarys/NvStreamingSdkCore.framework/Headers/NvsVideoTransition.h; sourceTree = "<group>"; };
+		2B46A846F788E6A7988A0411928D992E /* NvsCaptureVideoFx.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NvsCaptureVideoFx.h; path = MeisheSdk/Librarys/NvStreamingSdkCore.framework/Headers/NvsCaptureVideoFx.h; sourceTree = "<group>"; };
+		2E6588DFA4F6980F0E83374A4FEC3E9E /* NvsMultiThumbnailSequenceView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NvsMultiThumbnailSequenceView.h; path = MeisheSdk/Librarys/NvStreamingSdkCore.framework/Headers/NvsMultiThumbnailSequenceView.h; sourceTree = "<group>"; };
+		32ABB4C0A9C7C44956DCD24AB83403E9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		334A165F1431F898F0A9C92EC50B13D5 /* Pods-MeisheSdk_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MeisheSdk_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		3556327D2544F5DE869A7928EAF63BF8 /* NvsTimelineVideoFx.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NvsTimelineVideoFx.h; path = MeisheSdk/Librarys/NvStreamingSdkCore.framework/Headers/NvsTimelineVideoFx.h; sourceTree = "<group>"; };
+		35E02FF00D37625E4FCAE4BC40A89455 /* NvsThumbnailSequenceView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NvsThumbnailSequenceView.h; path = MeisheSdk/Librarys/NvStreamingSdkCore.framework/Headers/NvsThumbnailSequenceView.h; sourceTree = "<group>"; };
+		378928CFAA002B837B72ACEF1253165A /* NvsCommonDef.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NvsCommonDef.h; path = MeisheSdk/Librarys/NvStreamingSdkCore.framework/Headers/NvsCommonDef.h; sourceTree = "<group>"; };
+		38CD92D32527967B1A3CA9B5A7C24936 /* Pods-MeisheSdk_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MeisheSdk_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3BB59A5B54ED2161E6F92BACF27EFAD9 /* NvsTrack.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NvsTrack.h; path = MeisheSdk/Librarys/NvStreamingSdkCore.framework/Headers/NvsTrack.h; sourceTree = "<group>"; };
+		411B56621BCD67F640536353C42ECD6D /* NvsTimelineAnimatedSticker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NvsTimelineAnimatedSticker.h; path = MeisheSdk/Librarys/NvStreamingSdkCore.framework/Headers/NvsTimelineAnimatedSticker.h; sourceTree = "<group>"; };
+		483BE5F0FEC2468B2E7D1772A132FEF6 /* NvsAssetPackageParticleDescParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NvsAssetPackageParticleDescParser.h; path = MeisheSdk/Librarys/NvStreamingSdkCore.framework/Headers/NvsAssetPackageParticleDescParser.h; sourceTree = "<group>"; };
+		4A49F7013E259D5EA9A7BCBE64B1EE4B /* Pods-MeisheSdk_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MeisheSdk_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		4BAA5AB3A97FDBEDE9EA1A1C86F1F62E /* NvsAudioTrack.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NvsAudioTrack.h; path = MeisheSdk/Librarys/NvStreamingSdkCore.framework/Headers/NvsAudioTrack.h; sourceTree = "<group>"; };
+		53DEA194CD1B2D21337932533B104202 /* NvsAudioTransition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NvsAudioTransition.h; path = MeisheSdk/Librarys/NvStreamingSdkCore.framework/Headers/NvsAudioTransition.h; sourceTree = "<group>"; };
+		56E340B51BB4C5D48EABEB39E8F83A9B /* NvsTimeline.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NvsTimeline.h; path = MeisheSdk/Librarys/NvStreamingSdkCore.framework/Headers/NvsTimeline.h; sourceTree = "<group>"; };
+		594F4BEC1295698A2EEFD05F6E7E30F0 /* Pods-MeisheSdk_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MeisheSdk_Example-resources.sh"; sourceTree = "<group>"; };
+		5C5EA6558F676AC83F119025328CBE26 /* NvsFx.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NvsFx.h; path = MeisheSdk/Librarys/NvStreamingSdkCore.framework/Headers/NvsFx.h; sourceTree = "<group>"; };
+		5D2FEE7063D07BB45BDFC263B8B7A832 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F1693724F25C791EC1A4FAF6792A02C /* NvsAVFileInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NvsAVFileInfo.h; path = MeisheSdk/Librarys/NvStreamingSdkCore.framework/Headers/NvsAVFileInfo.h; sourceTree = "<group>"; };
+		61BE0B0AD16992747A40DB0032D5505C /* Pods-MeisheSdk_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MeisheSdk_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		63387BF9F0723CBB2CF45DD0D4A729C6 /* Pods-MeisheSdk_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MeisheSdk_Example.release.xcconfig"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		68A81C9E627892B7106CE9B3FC5DAD52 /* NvsStreamingContext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NvsStreamingContext.h; path = MeisheSdk/Librarys/NvStreamingSdkCore.framework/Headers/NvsStreamingContext.h; sourceTree = "<group>"; };
+		6D3C35F824C78B778849613A1D73E608 /* Pods-MeisheSdk_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MeisheSdk_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		74B4DB912834CF6D9AAD6951E1E51805 /* Pods-MeisheSdk_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MeisheSdk_Example-dummy.m"; sourceTree = "<group>"; };
+		7A06BFCB597375B8A4FE8A2B2ACA90A0 /* NvsAudioFx.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NvsAudioFx.h; path = MeisheSdk/Librarys/NvStreamingSdkCore.framework/Headers/NvsAudioFx.h; sourceTree = "<group>"; };
+		7DF2118C02D5D4B616067C98A2FAE462 /* NvsAssetPackageManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NvsAssetPackageManager.h; path = MeisheSdk/Librarys/NvStreamingSdkCore.framework/Headers/NvsAssetPackageManager.h; sourceTree = "<group>"; };
+		82BDA608AB9BCA346C7DE5B7B93BF962 /* NvsObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NvsObject.h; path = MeisheSdk/Librarys/NvStreamingSdkCore.framework/Headers/NvsObject.h; sourceTree = "<group>"; };
+		8EFA189C38DA4A545EE6841427122862 /* Pods_MeisheSdk_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MeisheSdk_Example.framework; path = "Pods-MeisheSdk_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		908EAA3A28490FA5990682907603470D /* NvsAREffectContext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NvsAREffectContext.h; path = MeisheSdk/Librarys/NvStreamingSdkCore.framework/Headers/NvsAREffectContext.h; sourceTree = "<group>"; };
+		91A92B70BF78B8A557F4AA878908D7C5 /* NvsFaceEffect2Init.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NvsFaceEffect2Init.h; path = MeisheSdk/Librarys/NvStreamingSdkCore.framework/Headers/NvsFaceEffect2Init.h; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9CB430950DF118F19CD0AEB038D2053C /* Pods-MeisheSdk_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MeisheSdk_Tests-resources.sh"; sourceTree = "<group>"; };
+		A0399CCCD43C092831FBB7DCFC525EA6 /* Pods-MeisheSdk_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-MeisheSdk_Example.modulemap"; sourceTree = "<group>"; };
+		A06133EBD4E67FB554DE6A02CE2F6DD2 /* NvsTimelineCaption.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NvsTimelineCaption.h; path = MeisheSdk/Librarys/NvStreamingSdkCore.framework/Headers/NvsTimelineCaption.h; sourceTree = "<group>"; };
+		A9872384A042A1391C5D9F769A47781E /* NvsClip.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NvsClip.h; path = MeisheSdk/Librarys/NvStreamingSdkCore.framework/Headers/NvsClip.h; sourceTree = "<group>"; };
+		AF55585DCF1AD4D798E30F973EE50464 /* Pods-MeisheSdk_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MeisheSdk_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		B3F7D611910F03155249FA35701119E7 /* NvsVideoFrameRetriever.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NvsVideoFrameRetriever.h; path = MeisheSdk/Librarys/NvStreamingSdkCore.framework/Headers/NvsVideoFrameRetriever.h; sourceTree = "<group>"; };
+		B7A092BEE7BCF800F5078E93DE82FAEE /* NvsParticleSystemContext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NvsParticleSystemContext.h; path = MeisheSdk/Librarys/NvStreamingSdkCore.framework/Headers/NvsParticleSystemContext.h; sourceTree = "<group>"; };
+		B962740E2F2B3348BDC629859F22480B /* NvsCustomVideoFx.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NvsCustomVideoFx.h; path = MeisheSdk/Librarys/NvStreamingSdkCore.framework/Headers/NvsCustomVideoFx.h; sourceTree = "<group>"; };
+		BFE8ADB4F10A48656F01D349EF00DF3C /* Pods-MeisheSdk_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MeisheSdk_Tests-umbrella.h"; sourceTree = "<group>"; };
+		C0DA832EC41EF243B5CE28CCBE551705 /* NvsFxDescription.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NvsFxDescription.h; path = MeisheSdk/Librarys/NvStreamingSdkCore.framework/Headers/NvsFxDescription.h; sourceTree = "<group>"; };
+		C57A4647CF2AC7779AD8C4B1B7F6268E /* Pods-MeisheSdk_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MeisheSdk_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		C8D4883567D9D3A6B91D6510CC01DC6B /* NvsVideoFx.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NvsVideoFx.h; path = MeisheSdk/Librarys/NvStreamingSdkCore.framework/Headers/NvsVideoFx.h; sourceTree = "<group>"; };
+		D76B3CC5D046F54E1A3FEF35C59B8CDE /* NvsVideoClip.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NvsVideoClip.h; path = MeisheSdk/Librarys/NvStreamingSdkCore.framework/Headers/NvsVideoClip.h; sourceTree = "<group>"; };
+		DBEF2AD08EFD51281598A7F91B8DA3FF /* Pods-MeisheSdk_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MeisheSdk_Example-umbrella.h"; sourceTree = "<group>"; };
+		E298CAB14E70200F4DDAEEC6450E72D5 /* NvsVideoTrack.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NvsVideoTrack.h; path = MeisheSdk/Librarys/NvStreamingSdkCore.framework/Headers/NvsVideoTrack.h; sourceTree = "<group>"; };
+		E6DEEC2D1C9D7FD69A1D3CB246E63624 /* NvsAudioClip.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NvsAudioClip.h; path = MeisheSdk/Librarys/NvStreamingSdkCore.framework/Headers/NvsAudioClip.h; sourceTree = "<group>"; };
+		F8A2F782E8D5E31487A530A807ED1662 /* Pods-MeisheSdk_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-MeisheSdk_Tests.modulemap"; sourceTree = "<group>"; };
+		F986C1276F7AD6B54C1B6AC44363B37D /* NvsVideoFrameReceiver.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NvsVideoFrameReceiver.h; path = MeisheSdk/Librarys/NvStreamingSdkCore.framework/Headers/NvsVideoFrameReceiver.h; sourceTree = "<group>"; };
+		FD01C5DF6B9CE07D6C8CDB4D6BAE08CA /* Pods-MeisheSdk_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MeisheSdk_Tests-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8194A5AC5B6E0EFC3E0521208CCE9FBE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DDB5D64F8B10153F78EDA8664E2DD93 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC5B55F498E57F8003BC914FDADCA1B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				819B93ED8BB36F822F5D11BB9E513CA0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		139C8CCE5079E8836CD4D2812C41C562 /* MeisheSdk */ = {
+			isa = PBXGroup;
+			children = (
+				908EAA3A28490FA5990682907603470D /* NvsAREffectContext.h */,
+				7DF2118C02D5D4B616067C98A2FAE462 /* NvsAssetPackageManager.h */,
+				483BE5F0FEC2468B2E7D1772A132FEF6 /* NvsAssetPackageParticleDescParser.h */,
+				E6DEEC2D1C9D7FD69A1D3CB246E63624 /* NvsAudioClip.h */,
+				7A06BFCB597375B8A4FE8A2B2ACA90A0 /* NvsAudioFx.h */,
+				4BAA5AB3A97FDBEDE9EA1A1C86F1F62E /* NvsAudioTrack.h */,
+				53DEA194CD1B2D21337932533B104202 /* NvsAudioTransition.h */,
+				5F1693724F25C791EC1A4FAF6792A02C /* NvsAVFileInfo.h */,
+				2B46A846F788E6A7988A0411928D992E /* NvsCaptureVideoFx.h */,
+				A9872384A042A1391C5D9F769A47781E /* NvsClip.h */,
+				378928CFAA002B837B72ACEF1253165A /* NvsCommonDef.h */,
+				B962740E2F2B3348BDC629859F22480B /* NvsCustomVideoFx.h */,
+				91A92B70BF78B8A557F4AA878908D7C5 /* NvsFaceEffect2Init.h */,
+				5C5EA6558F676AC83F119025328CBE26 /* NvsFx.h */,
+				C0DA832EC41EF243B5CE28CCBE551705 /* NvsFxDescription.h */,
+				1C17A4A8CB7FC996AD6C1F9C55703041 /* NvsLiveWindow.h */,
+				2E6588DFA4F6980F0E83374A4FEC3E9E /* NvsMultiThumbnailSequenceView.h */,
+				82BDA608AB9BCA346C7DE5B7B93BF962 /* NvsObject.h */,
+				B7A092BEE7BCF800F5078E93DE82FAEE /* NvsParticleSystemContext.h */,
+				68A81C9E627892B7106CE9B3FC5DAD52 /* NvsStreamingContext.h */,
+				35E02FF00D37625E4FCAE4BC40A89455 /* NvsThumbnailSequenceView.h */,
+				56E340B51BB4C5D48EABEB39E8F83A9B /* NvsTimeline.h */,
+				411B56621BCD67F640536353C42ECD6D /* NvsTimelineAnimatedSticker.h */,
+				A06133EBD4E67FB554DE6A02CE2F6DD2 /* NvsTimelineCaption.h */,
+				3556327D2544F5DE869A7928EAF63BF8 /* NvsTimelineVideoFx.h */,
+				3BB59A5B54ED2161E6F92BACF27EFAD9 /* NvsTrack.h */,
+				D76B3CC5D046F54E1A3FEF35C59B8CDE /* NvsVideoClip.h */,
+				F986C1276F7AD6B54C1B6AC44363B37D /* NvsVideoFrameReceiver.h */,
+				B3F7D611910F03155249FA35701119E7 /* NvsVideoFrameRetriever.h */,
+				C8D4883567D9D3A6B91D6510CC01DC6B /* NvsVideoFx.h */,
+				E298CAB14E70200F4DDAEEC6450E72D5 /* NvsVideoTrack.h */,
+				295F95498312AE6AB18A094FCD13FE5E /* NvsVideoTransition.h */,
+				225544D9D9E711ECE0C156D8078137A4 /* Frameworks */,
+			);
+			name = MeisheSdk;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		225544D9D9E711ECE0C156D8078137A4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0E7877616E450379ACFB9F7494F51038 /* NvStreamingSdkCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		414A5E1D2603450DDBD3AE1AA28FCCA4 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				139C8CCE5079E8836CD4D2812C41C562 /* MeisheSdk */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		5DBC3BF2D7895D231A86E8D99A03FF9C /* Pods-MeisheSdk_Example */ = {
+			isa = PBXGroup;
+			children = (
+				5D2FEE7063D07BB45BDFC263B8B7A832 /* Info.plist */,
+				A0399CCCD43C092831FBB7DCFC525EA6 /* Pods-MeisheSdk_Example.modulemap */,
+				1606E51C32CDEBBA987535F3483EBB0D /* Pods-MeisheSdk_Example-acknowledgements.markdown */,
+				AF55585DCF1AD4D798E30F973EE50464 /* Pods-MeisheSdk_Example-acknowledgements.plist */,
+				74B4DB912834CF6D9AAD6951E1E51805 /* Pods-MeisheSdk_Example-dummy.m */,
+				12D77E5A1B902EB79FF46031B2E41D19 /* Pods-MeisheSdk_Example-frameworks.sh */,
+				594F4BEC1295698A2EEFD05F6E7E30F0 /* Pods-MeisheSdk_Example-resources.sh */,
+				DBEF2AD08EFD51281598A7F91B8DA3FF /* Pods-MeisheSdk_Example-umbrella.h */,
+				6D3C35F824C78B778849613A1D73E608 /* Pods-MeisheSdk_Example.debug.xcconfig */,
+				63387BF9F0723CBB2CF45DD0D4A729C6 /* Pods-MeisheSdk_Example.release.xcconfig */,
+			);
+			name = "Pods-MeisheSdk_Example";
+			path = "Target Support Files/Pods-MeisheSdk_Example";
+			sourceTree = "<group>";
+		};
+		5F312CE5E837847C4901F2A0FF1B6CEF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8EFA189C38DA4A545EE6841427122862 /* Pods_MeisheSdk_Example.framework */,
+				22ADE57C36FE09E3F2A50A621D55D844 /* Pods_MeisheSdk_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				414A5E1D2603450DDBD3AE1AA28FCCA4 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				5F312CE5E837847C4901F2A0FF1B6CEF /* Products */,
+				B34343354625D329290FB6E886A82F66 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		B34343354625D329290FB6E886A82F66 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5DBC3BF2D7895D231A86E8D99A03FF9C /* Pods-MeisheSdk_Example */,
+				DB13BF339F1EADCCF71E77604DD80381 /* Pods-MeisheSdk_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		DB13BF339F1EADCCF71E77604DD80381 /* Pods-MeisheSdk_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				32ABB4C0A9C7C44956DCD24AB83403E9 /* Info.plist */,
+				F8A2F782E8D5E31487A530A807ED1662 /* Pods-MeisheSdk_Tests.modulemap */,
+				38CD92D32527967B1A3CA9B5A7C24936 /* Pods-MeisheSdk_Tests-acknowledgements.markdown */,
+				61BE0B0AD16992747A40DB0032D5505C /* Pods-MeisheSdk_Tests-acknowledgements.plist */,
+				FD01C5DF6B9CE07D6C8CDB4D6BAE08CA /* Pods-MeisheSdk_Tests-dummy.m */,
+				334A165F1431F898F0A9C92EC50B13D5 /* Pods-MeisheSdk_Tests-frameworks.sh */,
+				9CB430950DF118F19CD0AEB038D2053C /* Pods-MeisheSdk_Tests-resources.sh */,
+				BFE8ADB4F10A48656F01D349EF00DF3C /* Pods-MeisheSdk_Tests-umbrella.h */,
+				4A49F7013E259D5EA9A7BCBE64B1EE4B /* Pods-MeisheSdk_Tests.debug.xcconfig */,
+				C57A4647CF2AC7779AD8C4B1B7F6268E /* Pods-MeisheSdk_Tests.release.xcconfig */,
+			);
+			name = "Pods-MeisheSdk_Tests";
+			path = "Target Support Files/Pods-MeisheSdk_Tests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		21DA00B9473E49845F255A2DAE766044 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B76A78C0C3C392B7E908B6087DD782E8 /* Pods-MeisheSdk_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF25AFC01DF0DC45EC9E5C60C7EC0E02 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6FD2A17A8961A467986979E62642118 /* Pods-MeisheSdk_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		6F7F454476EC5EBE11A62807D6C16AE2 /* Pods-MeisheSdk_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A177962678EF13B72EC2443F62490F37 /* Build configuration list for PBXNativeTarget "Pods-MeisheSdk_Example" */;
+			buildPhases = (
+				0489C2F78B87CD609096C8E9DE1239C4 /* Sources */,
+				8194A5AC5B6E0EFC3E0521208CCE9FBE /* Frameworks */,
+				21DA00B9473E49845F255A2DAE766044 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-MeisheSdk_Example";
+			productName = "Pods-MeisheSdk_Example";
+			productReference = 8EFA189C38DA4A545EE6841427122862 /* Pods_MeisheSdk_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B30FDEBF5039B399BD4A1C93ED41454D /* Pods-MeisheSdk_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9299DC802BE60195EC51C363CF4A863D /* Build configuration list for PBXNativeTarget "Pods-MeisheSdk_Tests" */;
+			buildPhases = (
+				8DB5C5D4887FB4F827390ABA1F5B3C11 /* Sources */,
+				EC5B55F498E57F8003BC914FDADCA1B5 /* Frameworks */,
+				BF25AFC01DF0DC45EC9E5C60C7EC0E02 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-MeisheSdk_Tests";
+			productName = "Pods-MeisheSdk_Tests";
+			productReference = 22ADE57C36FE09E3F2A50A621D55D844 /* Pods_MeisheSdk_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 5F312CE5E837847C4901F2A0FF1B6CEF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6F7F454476EC5EBE11A62807D6C16AE2 /* Pods-MeisheSdk_Example */,
+				B30FDEBF5039B399BD4A1C93ED41454D /* Pods-MeisheSdk_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0489C2F78B87CD609096C8E9DE1239C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75E6FBFA6BD1457154F6CB4C6E1376CE /* Pods-MeisheSdk_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DB5C5D4887FB4F827390ABA1F5B3C11 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C0783F57C431E262D7EC61702FB0AAB /* Pods-MeisheSdk_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1C7D17A37D091C98D2F0DD886C3A9320 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		34FE9531DA9AF2820790339988D5FF41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5DAADBBF9EEBE86FE27F82DEF9471B52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A49F7013E259D5EA9A7BCBE64B1EE4B /* Pods-MeisheSdk_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MeisheSdk_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MeisheSdk_Tests/Pods-MeisheSdk_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MeisheSdk_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		723BB0AE62BD66AD4F9972FA1AE6394D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C57A4647CF2AC7779AD8C4B1B7F6268E /* Pods-MeisheSdk_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MeisheSdk_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MeisheSdk_Tests/Pods-MeisheSdk_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MeisheSdk_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CC76C8CD5B34A914D26CCC2BE35698E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D3C35F824C78B778849613A1D73E608 /* Pods-MeisheSdk_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MeisheSdk_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MeisheSdk_Example/Pods-MeisheSdk_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MeisheSdk_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D806B8B441E4DF11217420566DCA57FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 63387BF9F0723CBB2CF45DD0D4A729C6 /* Pods-MeisheSdk_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MeisheSdk_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MeisheSdk_Example/Pods-MeisheSdk_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MeisheSdk_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C7D17A37D091C98D2F0DD886C3A9320 /* Debug */,
+				34FE9531DA9AF2820790339988D5FF41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9299DC802BE60195EC51C363CF4A863D /* Build configuration list for PBXNativeTarget "Pods-MeisheSdk_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DAADBBF9EEBE86FE27F82DEF9471B52 /* Debug */,
+				723BB0AE62BD66AD4F9972FA1AE6394D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A177962678EF13B72EC2443F62490F37 /* Build configuration list for PBXNativeTarget "Pods-MeisheSdk_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC76C8CD5B34A914D26CCC2BE35698E7 /* Debug */,
+				D806B8B441E4DF11217420566DCA57FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

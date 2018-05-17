@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MeisheSdk'
-  s.version          = '0.1.0'
+  s.version          = '0.2.0'
   s.summary          = '美摄Sdk'
   s.description      = <<-DESC
                         音视频处理Sdk
@@ -21,4 +21,7 @@ Pod::Spec.new do |s|
   s.source_files = 'MeisheSdk/Librarys/NvStreamingSdkCore.framework/**/*.h'
   s.public_header_files = "MeisheSdk/Librarys/NvStreamingSdkCore.framework/**/*.h"
   s.ios.vendored_frameworks = "MeisheSdk/Librarys/NvStreamingSdkCore.framework"
+s.pod_target_xcconfig = {
+'ENABLE_BITCODE'           => 'NO'
+}
 end
